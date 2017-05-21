@@ -26,6 +26,12 @@
       });
     })
   }
+  wifi.disconnect = function() {
+    return new Promise(function(resolve, reject){
+      WIFI.disconnectIface();
+      resolve();
+    })
+  }
   wifi.status = function() {
     return new Promise(function(resolve, reject){
       var state = WIFI.getIfaceState();

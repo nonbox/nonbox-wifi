@@ -1,6 +1,6 @@
 {
   "name": "nonbox-wifi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control wifi on Linux",
   "main": "index.js",
   "license": "MIT",
